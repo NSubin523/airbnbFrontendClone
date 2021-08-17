@@ -25,7 +25,8 @@ export default function Header() {
                 placeholder="Search here !!"
             />
             <SearchIcon 
-                className="mr-3 hidden md:inline-flex h-8 bg-red-500 text-white rounded-full p-1 cursor-pointer"
+                className="mr-3 hidden md:inline-flex h-8 bg-gray-300 text-white rounded-full p-1 cursor-pointer
+                hover:bg-red-300"
             />
         </div>
 
@@ -33,7 +34,7 @@ export default function Header() {
         <div className="justify-end items-center flex space-x-4 text-gray-600"> 
         <p className="cursor-pointer hidden md:inline">Become a host</p>
             <GlobeAltIcon className="h-6"/>
-            <div className="cursor-pointer flex text-gray-600 border-4 p-2 rounded-full">
+            <div className="cursor-pointer flex text-gray-600 border-4 p-2 rounded-full hover:bg-red-300">
                 <MenuIcon className="h-6"/>
                 <UserCircleIcon className="h-6"/>
             </div>
